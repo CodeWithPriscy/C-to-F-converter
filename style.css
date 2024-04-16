@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Merriweather','Times New Roman', Times, serif;
+}
+.wrapper{
+    height:100vh;
+    background: linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F2C2EE", endColorstr="#E763F9", GradientType=1 );    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(3px) ; 
+    filter: brightness(0.8);
+}
+.container{
+    height: 70%;
+    width:30%;
+    display: flex;
+    background-color: rgb(232, 235, 241);
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow:7px 7px 10px rgba(1, 2, 3, 0.9);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.container:hover{
+    box-shadow: 0 0 20px rgba(51,117,232,1);
+}
+.content{
+    text-align: center;
+    margin-top:4rem;
+}
+#head{
+    font-size: 1.5rem;
+}
+#box{
+    margin-top:2rem;
+}
+#inbox{
+    padding:1.3dvh;
+    border-radius: 10px;
+    border:1px solid #000;
+    font-size:13px;
+}
+.btn{
+    margin-top:2rem;
+}
+#button{
+    padding:1dvh;
+    border-radius: 5px;
+    border:none;
+    background-color: rgb(51, 117, 232);
+    color:#fff;
+    cursor:pointer;
+}
+#result{
+    margin-top:2rem;
+    font-family:monospace,'Times New Roman', Times, serif;
+    font-size:large;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+#button:hover{
+    transform: scale(1.05);
+    background-color: rgb(41,96,196);
+}
+/*rgba(51,117,232,0.9);
